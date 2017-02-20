@@ -31,28 +31,25 @@ Plan de formation ReactJS
 - single page application 
 - MVC, MVVM...
 
+### Les frameworks & libraires JS sur le marché actuellement :
+- ReactJS, AngularJS, VueJS
+- virtual dom VS dirty checking
+- strict unidirectional data flow (one way binding) VS two way binding
+
 ### Development workflow :
-- Best practices / conventions
-- reserved words (javascript / es2015)
-- debugging / logging / chrome dev tools
-- linter
-- bundler / task runner
+- editor : (atom / sublimetext, webstorm) : jsx emmet, babel language syntax colorization, ternjs
+- Best practices / conventions / linter (eslint) / editorconfig
+- debugging / logging / chrome dev tools + react dev tools + redux dev tools
 
 ### React development stack
-- webpack / webpack-dev-server
-- babel
-- react
-- redux
-- react-redux
-
-### Les frameworks & libraires JS sur le marché actuellement :
-- ReactJS
-- AngularJS
-- VueJS
+- webpack / webpack-dev-server : Mega-power bundler
+- babel : es2015 / 2017 (future of web browser)
+- react : the view part (virtualdom  / one way binding)
+- redux / react-redux : the model part (functional reactive programming)
 
 ### React community :
 - facebook, rbnb, ...
-- Dan Abramov
+- Dan Abramov (@gaeron)
 - https://react.rocks/
 - https://github.com/enaqx/awesome-react
 - https://github.com/brillout/awesome-react-components
@@ -68,7 +65,7 @@ Plan de formation ReactJS
   - require data json
   - require css
   - require image
-  ...
+  ... (et bien plus : cf. webpack loader + webpack plugin)
   - comprendre webpack en dev / comprendre le build de production
 
 - React, the component way
@@ -84,17 +81,23 @@ Plan de formation ReactJS
 
 - React : state shared between components
 
-- exercice : une liste de produit, un filtre par type, et un panier
-
-## Jour 5
+- exercice : (reprise de l'exercice précédent) une liste de produit, un filtre par type, et un panier
 
 - redux : Les trois principes (single source of truth, state is read-only, pure functions)
 
 - redux : store, actions, reducers
 
+- Dumb Components
+
+- exercice : (reprise de l'exercice précédent) refacto des states en redux store
+
+## Jour 5
+
+- react-redux : container (High order component) / connect
+
 - combine reducers (High order function)
 
-- react-redux : container (High order component) 
+- 
 
 - exercice : (reprise de l'exercice précédent) Utilisation de redux à la place des states
 
@@ -124,7 +127,7 @@ Plan de formation ReactJS
 
 ## Jour 8
 
-- compose / memoize
+- reselect / memoize
 
 - Material UI
 
