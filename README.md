@@ -108,27 +108,27 @@ Plan de formation ReactJS
 
 ## Jour 6
 
-- react form (controlled vs uncontrolled)
-
-- validation de formulaire
-
-- exercice : ajout/suppression/modification de produit
-
-## Jour 7
-
 - redux : thunk middleware to fetch remote data
 
 - le contrat de données (json file)
 
-- exercice : (reprise de l'exercice précédent) avec remote datas
+- exercice : (reprise de l'exercice précédent) avec remote datas (cf. nodejs cours)
+
+## Jour 7
+
+- react form (controlled vs uncontrolled)
+
+- validation de formulaire
+
+- exercice : ajout/suppression/modification de produit (cf. nodejs cours)
 
 ## Jour 8
 
-- rxjs : redux observable
+- compose / memoize
 
 - Material UI
 
-- autres libs et components
+- rxjs : redux observable
 
-- Restitutions des projets evaluation.
+- Restitutions des projets evaluation (cf. nodejs cours : le projet sera en cours)
 
