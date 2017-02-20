@@ -131,6 +131,8 @@ Plan de formation ReactJS
 
 - Material UI
 
+- SSR / isomorphic rendering (cf. nodejs cours)
+
 - rxjs : redux observable
 
 - Restitutions des projets evaluation (cf. nodejs cours : le projet sera en cours)
