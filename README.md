@@ -127,13 +127,15 @@ Plan de formation ReactJS
 
 ## Jour 8
 
-- reselect / memoize
+- upload CDN Amazon S3
 
-- Material UI
+- reselect / memoize (selon temps)
 
-- SSR / isomorphic rendering (cf. nodejs cours)
+- Material UI (selon temps)
 
-- rxjs : redux observable
+- SSR / isomorphic rendering (cf. nodejs cours) (selon temps)
+
+- rxjs : redux observable (selon temps)
 
 - Restitutions des projets evaluation (cf. nodejs cours : le projet sera en cours)
 
