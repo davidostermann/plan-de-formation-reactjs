@@ -6,92 +6,99 @@ Plan de formation ReactJS
 
 ## Pré-requis :
 
-- javascript
+- javascript / D.O.M
 - git / github
 - node / npm
 - es6
-- css
-- html
+- html / css / pré-processeurs css / framework css
 - anglais
 
 ---
 
 ## Jour 1
 
-Frontend developpement vocabulaire :
-- markup
-- rendu / render
+### Le fonctionnement des navigateurs :
+- markup / dom / rendering / paint / layout
+- javascript engines (https://en.wikipedia.org/wiki/List_of_ECMAScript_engines)
+- javascript versions (es5, es6, ...)
+
+### Les navigateurs et les servers :
+- server / browser / domains (cors)
+- templating (browser responsability / server responsability)
+- API vs Server rendering
+
+### Les web applications :
+- single page application 
 - Model / View / Controller
+
+### Development workflow :
+- Best practices / conventions
+- reserved words (javascript / es2015)
 - debugging / logging / chrome dev tools
-- ssl / https
-- cors
-- pré-processeurs css
-- frameworks css / frameworks js
-- bundler / task runner / minification / ...
+- linter
+- bundler / task runner
 
+### React development stack
+- webpack / webpack-dev-server
+- babel
+- react
+- redux
+- react-redux
 
-Les frameworks & libraires :
-- expressjs
-- hapijs
-- Strapi / Koa / waterline
-- sail.js / waterline
+### Les frameworks & libraires JS sur le marché actuellement :
+- ReactJS
+- AngularJS
+- VueJS
 
-Environnement
-- ES6 / babel polyfill
-- eslint OU hapijs eslint
-- .editorconfig
+### React community :
+- facebook, rbnb, ...
+- Dan Abramov
+- https://react.rocks/
+- https://github.com/enaqx/awesome-react
+- https://github.com/brillout/awesome-react-components
+- https://github.com/xgrommx/awesome-redux
 
-Hebergement :
-- Heroku
-- Zeit
-
-Les avantages de HAPI :
-...
-
-- Hapi first route
-- Templating back avec handlebar, ejs, jade ou React
+### Let's step into :
+- npm install create-react-app -g
+- Your first web app / Your first component
 
 ## Jour 2
 
-- Securiser vos routes (404)
-- First API GET / POST / PUT / DELETE
-- Clean code (eslint-config-hapi) / separation of concern -> create controller
+- Webpack what ?
+  - require data json
+  - require css
+  - require image
+  ...
+  - comprendre webpack en dev / comprendre le build de production
+
+- React, the component way
+  - JSX
+  - map / key
+  - ref
+  - props
+  - state
+  
+- exercice : une liste de produit
 
 ## Jour 3
 
-- Base de données
-- Sql vs Nosql vs Graph
-- We will use Posgresql
+- React : state shared between components
 
-- What is an ORM
-- Mongoose VS Sequelize VS ... Waterline ... Objection.js
-- We will use Sequelize
-
-- Mise en place Repo Github
-- Mise en place server Heroku
-- Mise en place CDN Amazon S3
-
-- Prise de brief Google map + Photo upload
-- Projet Google map + Photo upload avec React / Hapi
+- exercice : une liste, un filtre, et un panier
 
 ## Jour 4
 
-- Authentification : les différentes stratégies
-- We will use Bearer token for creation, update and delete
-- Projet Google map + Photo upload (suite)
+- React router V4
+- Redux
 
 ## Jour 5
 
-- Projet Google map + Photo upload
 
 ## Jour 6
 
-- Graphql avec Apollo / Hapijs
 
 ## Jour 7
 
-- Socket.io
 
 ## Jour 8
 
-- Presentation du projet Google map + Photo upload
