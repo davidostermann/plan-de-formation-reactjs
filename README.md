@@ -97,7 +97,7 @@ Plan de formation ReactJS
 
 - combine reducers (High order function)
 
-- 
+- Designing the State Shape
 
 - exercice : (reprise de l'exercice précédent) Utilisation de redux à la place des states
 
