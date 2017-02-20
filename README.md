@@ -29,7 +29,7 @@ Plan de formation ReactJS
 
 ### Les web applications :
 - single page application 
-- Model / View / Controller
+- MVC, MVVM...
 
 ### Development workflow :
 - Best practices / conventions
@@ -84,21 +84,51 @@ Plan de formation ReactJS
 
 - React : state shared between components
 
-- exercice : une liste, un filtre, et un panier
-
-## Jour 4
-
-- React router V4
-- Redux
+- exercice : une liste de produit, un filtre par type, et un panier
 
 ## Jour 5
 
+- redux : Les trois principes (single source of truth, state is read-only, pure functions)
+
+- redux : store, actions, reducers
+
+- combine reducers (High order function)
+
+- react-redux : container (High order component) 
+
+- exercice : (reprise de l'exercice précédent) Utilisation de redux à la place des states
+
+## Jour 4
+
+- React router V4 / React helmet / react-router-redux V4
+
+- exercice : (reprise de l'exercice précédent) Ajout page detail produit + page recap panier
+
+- evaluation : projet events / avec pagination / related events (à confirmer selon niveau général)
 
 ## Jour 6
 
+- react form (controlled vs uncontrolled)
+
+- validation de formulaire
+
+- exercice : ajout/suppression/modification de produit
 
 ## Jour 7
 
+- redux : thunk middleware to fetch remote data
+
+- le contrat de données (json file)
+
+- exercice : (reprise de l'exercice précédent) avec remote datas
 
 ## Jour 8
+
+- rxjs : redux observable
+
+- Material UI
+
+- autres libs et components
+
+- Restitutions des projets evaluation.
 
