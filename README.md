@@ -41,7 +41,7 @@ Plan de formation ReactJS
 - Best practices / conventions / linter (eslint) / editorconfig
 - debugging / logging / chrome dev tools + react dev tools + redux dev tools
 
-### React development stack
+### React development stack :
 - webpack / webpack-dev-server : Mega-power bundler
 - babel : es2015 / 2017 (future of web browser)
 - react : the view part (virtualdom  / one way binding)
@@ -91,7 +91,7 @@ Plan de formation ReactJS
 
 - exercice : (reprise de l'exercice précédent) refacto des states en redux store
 
-## Jour 5
+## Jour 4
 
 - react-redux : container (High order component) / connect
 
@@ -101,13 +101,13 @@ Plan de formation ReactJS
 
 - exercice : (reprise de l'exercice précédent) Utilisation de redux à la place des states
 
-## Jour 4
+## Jour 5
 
 - React router V4 / React helmet / react-router-redux V4
 
 - exercice : (reprise de l'exercice précédent) Ajout page detail produit + page recap panier
 
-- evaluation : projet events / avec pagination / related events (à confirmer selon niveau général)
+- evaluation : projet events + liste + filtre + pagination + page detail + bloc related events (à confirmer selon niveau général)
 
 ## Jour 6
 
