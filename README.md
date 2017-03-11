@@ -101,6 +101,8 @@ Plan de formation ReactJS
 
 - exercice : (reprise de l'exercice précédent) Utilisation de redux à la place des states
 
+- jsperf / componentShouldUpdate / props shallow equal / objects references / (reselect (?))
+
 ## Jour 5
 
 - React router V4 / React helmet / react-router-redux V4
